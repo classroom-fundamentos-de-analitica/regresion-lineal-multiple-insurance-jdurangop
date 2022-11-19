@@ -32,7 +32,7 @@ def pregunta_01():
     X = df.copy()
 
     # Remueva la columna `charges` del DataFrame `X`.
-    X.drop(['charges'], axis=1)
+    X.drop(['charges'], axis = 1, inplace = True)
 
     # Retorne `X` y `y`
     return X, y
@@ -73,7 +73,6 @@ def pregunta_03():
     from sklearn.compose import make_column_selector
     # Importe make_column_transformer
     from sklearn.compose import ColumnTransformer
-    from sklearn.compose import make_column_transformer
     # Importe SelectKBest
     from sklearn.feature_selection import SelectKBest
     # Importe f_regression
