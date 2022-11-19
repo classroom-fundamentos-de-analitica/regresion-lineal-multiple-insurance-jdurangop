@@ -73,6 +73,7 @@ def pregunta_03():
     from sklearn.compose import make_column_selector
     # Importe make_column_transformer
     from sklearn.compose import ColumnTransformer
+    from sklearn.compose import make_column_transformer
     # Importe SelectKBest
     from sklearn.feature_selection import SelectKBest
     # Importe f_regression
